@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Содержимое рабочей директории</title>
+</head>
+<body>
+    {% for title, url in messages.items %}
+        <a href="{{ url }}">{{ title }}</a>
+        <br>
+    {% endfor %}
+</body>
+</html>
